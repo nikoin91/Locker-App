@@ -6,7 +6,7 @@ public class Main {
         DataHandler dataHandler = new DataHandler();
         for(int num : numbers) {
             System.out.println("Initial value is " + num);
-            int newNum = DataHandler.modify(num);
+            int newNum = dataHandler.modify(num);
             System.out.println("New value is " + newNum);
         }
     }
